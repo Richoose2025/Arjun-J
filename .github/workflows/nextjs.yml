@@ -82,7 +82,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
         env:
           NPM_CONFIG_REGISTRY: 'https://registry.npmjs.org/'
-          NEXT_PUBLIC_BASE_PATH: '/arjun-portfolio'
+          NEXT_PUBLIC_BASE_PATH: ''
       # Ensure .nojekyll file exists to prevent Jekyll processing
       - name: Create .nojekyll file
         run: touch ./out/.nojekyll
