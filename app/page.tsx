@@ -343,7 +343,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-border/30 backdrop-blur-sm z-10 relative">
         <div className="container mx-auto text-center">
-          <p className="text-muted-foreground">© {new Date().getFullYear()} Arjun U. All rights reserved.</p>
+          <p className="text-muted-foreground">Digital Product Solutions © {new Date().getFullYear()} Arjun U. All rights reserved.</p>
         </div>
       </footer>
     </main>
