@@ -43,7 +43,7 @@ export default function ProfileCard() {
           {/* Profile image container */}
           <div className="relative w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-gradient-to-r from-green-500 via-cyan-500 to-purple-500">
             <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 via-cyan-500/20 to-purple-500/20 animate-pulse"></div>
-            <Image src="/placeholder.svg?height=400&width=400" alt="Arjun U" fill className="object-cover" />
+            <Image src="./img/arj.jpg?height=400&width=400" alt="Arjun U" fill className="object-cover" />
           </div>
 
           {/* Name and details */}
