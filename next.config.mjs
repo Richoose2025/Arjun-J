@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // Essential for static export
-  // Replace 'arjun-portfolio' with your actual repository name
-  basePath: '/arjun-portfolio',  // Hardcoded for GitHub Pages path
+  output: 'export',
+  basePath: '/arjun-portfolio',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -10,10 +9,9 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,  // Required for static export
+    unoptimized: true,
   },
-  assetPrefix: './',  // Helps with relative paths in exported files
+  assetPrefix: './'
 }
 
-// Use CommonJS export syntax instead of ES modules
-module.exports = nextConfig
+export default nextConfig
