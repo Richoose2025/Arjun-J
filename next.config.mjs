@@ -11,7 +11,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: './'
+  assetPrefix: '/arjun-portfolio/'
 }
 
 export default nextConfig
