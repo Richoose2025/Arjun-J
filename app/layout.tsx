@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Arjun U - Portfolio",
   description:
     "Personal portfolio website of Arjun U, a software developer specializing in Java, JavaScript, and web technologies.",
-    generator: 'v0.dev'
+    generator: 'Developed by Digital Product Solutions'
 }
 
 export default function RootLayout({
