@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           <h2 className="text-xl md:text-2xl text-muted-foreground">Currently pursuing MCA</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Building robust applications with Java, JavaScript, and modern frameworks
+            Building robust applications with Java and its frameworks
           </p>
           <div className="flex gap-4 justify-center pt-4">
             <Button className="bg-gradient-to-r from-green-500 to-cyan-500 hover:from-green-600 hover:to-cyan-600 transition-all duration-300 shadow-lg hover:shadow-green-500/20">
@@ -87,7 +87,7 @@ export default function Home() {
                 size="icon"
                 className="rounded-full border-green-500/50 hover:bg-green-500/10 transition-all duration-300"
               >
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/arjun-codes-931" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-5 w-5 text-green-500" />
                 </a>
               </Button>
@@ -96,7 +96,7 @@ export default function Home() {
                 size="icon"
                 className="rounded-full border-cyan-500/50 hover:bg-cyan-500/10 transition-all duration-300"
               >
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="www.linkedin.com/in/arjun931official" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5 text-cyan-500" />
                 </a>
               </Button>
@@ -105,7 +105,7 @@ export default function Home() {
                 size="icon"
                 className="rounded-full border-purple-500/50 hover:bg-purple-500/10 transition-all duration-300"
               >
-                <a href="mailto:contact@arjunu.com" aria-label="Email">
+                <a href="mailto:arjunog931@gmail.com" aria-label="Email">
                   <Mail className="h-5 w-5 text-purple-500" />
                 </a>
               </Button>
